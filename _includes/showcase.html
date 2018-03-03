@@ -1,0 +1,15 @@
+    </div>
+
+    <style>
+    .showcase-wrapper {background-image: url("{{ site.baseurl }}/images/bg.jpg");}
+    </style>
+    <p><a class="smoothScroll" id="myShowcase"></a></p>
+
+    <div class="showcase-wrapper sticky">
+      <div class="showcase-text">
+          {% for post in site.posts limit: 1 %}
+          <span class="badge lazy"><smaller>Pintado de Fresco...</smaller></span><br>{{ post.title }}<br><a href="{{ site.baseurl }}{{ post.url }}"><button type="button" class="btn btn-success">Saiba mais!</button></a>
+          {% endfor %}
+      </div>
+    </div>
+    <div class="container">

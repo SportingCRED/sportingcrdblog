@@ -1,0 +1,10 @@
+<section class="smoothScroll" id="post_list">
+<ul class="pager">
+{% if page.previous %}
+  <li class="previous" pull="left"><a href="{{site.baseurl}}{{ page.previous.url }}">&larr; Posts Antigos</a></li>
+{% endif %}
+{% if page.next %}
+  <li class="next" pull="right"><a href="{{site.baseurl}}{{ page.next.url }}">Posts Recentes &rarr;</a></li>
+{% endif %}
+</ul>
+</section>

@@ -1,0 +1,47 @@
+---
+title: Inicio
+---
+
+{% include showcase.html %}
+{% include greeting.html %}
+
+{% if site.posts != empty %}
+<div class="recent-posts">
+  <h1>Posts Recentes</h1>
+  {% for post in site.posts limit: 15 %}
+    {% if forloop.first %}
+      {% assign add_class = 'most-recent' %}
+      {% capture fresh_tag %}
+        &nbsp;<span class="badge"><smaller>Pintado de fresco...</smaller></span>
+      {% endcapture %}
+    {% endif %}
+    
+    <ul class="homepage-posts {{ add_class }}">
+      <li>
+        <span>
+          <h4>
+            <a href="{{ site.baseurl }}/{{ post.url }}">
+              {{ post.title }}
+            </a>
+            {{ fresh_tag }}
+            <time class="pull-right">
+              {{ post.date | date_to_string | date: "%b %-d, %Y"  }}
+            </time>
+          </h4>
+        </span>
+      </li>
+    </ul>
+    {% assign add_class = '' %}
+    {% assign fresh_tag = '' %}
+  {% endfor %}
+  <ul>
+    <a href="{{ site.baseurl }}/list.html">Veja mais...</a>
+  </ul>
+</div>
+{% endif %}
+
+{% include sede.html %}
+{% include atletismo.html %}
+{% include futebol.html %}
+{% include seccao_de_cultura.html %}
+{% include sala_da_musica.html %}

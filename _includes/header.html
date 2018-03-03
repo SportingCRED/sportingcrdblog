@@ -1,0 +1,74 @@
+{% include force-https.html %}
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta name="description" content="{{ site.description }}"/>
+<meta name="author" content="{{site.author}}"/>
+<meta name="keywords" content="{{site.keywords}}"/>
+<link rel="canonical" href="{{page.url | replace:'index.html','' | prepend: site.baseurl}}"/>
+
+<!-- You can use Open Graph tags to customize link previews.
+  Learn more: https://developers.facebook.com/docs/sharing/webmasters -->
+<meta property="og:url" content="https://sportingcred.github.io/sportingcrdblog{{ page.url }}"/>
+<meta property="og:type" content="{{ site.type }}"/>
+<meta property="og:title" content="{{ site.title }}"/>
+<meta property="og:description" content="{{ site.description }}"/>
+<meta property="og:image" content="https://sportingcred.github.io/sportingcrdblog/images/bg.jpg"/>
+<title>{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+<!--Tamanho do icon para firefox e chrome-->
+<link rel="icon" href="{{ site.baseurl }}{{ site.favicon }}" sizes="40x40"/>
+<!--Tamanho do icon para IE & Microsoft Edge -->
+<link rel="icon" href="{{ site.baseurl }}{{ site.favicon }}" sizes="60x60"/>
+<link href="{{ site.baseurl }}/css/bootstrap.min.css" rel="stylesheet"/>
+<link href="{{ site.baseurl }}/css/hc.css" rel="stylesheet"/>
+<link rel="stylesheet" href="{{ site.baseurl }}/css/bootstrap-glyphicons.css"/>
+<link rel="stylesheet" href="{{ site.baseurl }}/css/font-awesome/css/font-awesome.min.css"/>
+
+<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet"/>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="{{ site.baseurl }}/js/smoothscroll_onclick.js"></script>
+<script src="https://apis.google.com/js/platform.js" async defer>
+  {lang: 'pt-PT'}
+</script>
+
+ <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+
+<script src="{{ site.baseurl }}/js/main.js"></script>
+
+<script src="{{ site.baseurl }}/js/modernizr-2.6.2.min.js"></script>
+
+
+<script>
+  $(document).ready(function(){
+    // Add smooth scrolling to all links
+    $("a").on('click', function(event) {
+  
+      // Make sure this.hash has a value before overriding default behavior
+      if (this.hash !== "") {
+        // Prevent default anchor click behavior
+        event.preventDefault();
+  
+        // Store hash
+        var hash = this.hash;
+  
+        // Using jQuery's animate() method to add smooth page scroll
+        // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+        $('html, body').animate({
+          scrollTop: $(hash).offset().top
+        }, 800, function(){
+     
+          // Add hash (#) to URL when done scrolling (default click behavior)
+          window.location.hash = hash;
+        });
+      } // End if
+    });
+  });
+  </script>
+

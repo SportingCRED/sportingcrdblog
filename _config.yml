@@ -1,0 +1,87 @@
+##############################################################################
+## Site settings
+
+title: Sporting.C.R.D
+author: https://plus.google.com/u/0/105298409037936761027
+baseurl: /sportingcrdblog
+url: https://sportingcred.github.io/sportingcrdblog/
+type: blog
+keywords: "Sporting Clube Reboleira e Damaia, Desporto, Atletismo, Futebol, Musica, Associativismo, Solidariedade Social"
+description: Bem vindos ao site do Sporting Clube da Reboleira e Damaia, Desporto, Cultura e Solidaridade Social, Ao serviço da Comunidade desde 1981".
+
+force-https: true
+postimage: /images/scrdpost.jpg
+favicon: /images/ico/scrd_logo.ico
+gplus: https://plus.google.com/u/0/105298409037936761027
+github: https://github.com/SportingCRED
+wix: https://screboleiradamaia.wixsite.com/sportingcrd/academia
+twitter: https://twitter.com/sporting_crd
+facebook: https://www.facebook.com/profile.php?id=100022175304090
+linkedin: https://www.linkedin.com/in/jos%C3%A9-marques-331993138/
+youtube: https://www.youtube.com/channel/UCtQQHhFjdPeA0DDobSeydWg
+bambuser: http://bambuser.com/channel/SportingCRD
+pinterest: https://www.pinterest.pt/scrddesporto/
+instagram: https://www.instagram.com/scrddevsport/
+myspace: https://myspace.com/sportingcrd
+
+fone: 211982304 - 918965243
+email: sportingcrd@hotmail.com
+location: 38° 44' 13.0056 N | 9° 8' 33.6660 W
+disqus: sportingcred
+sass:
+  style: compressed
+##Make sure to edit the above fields, especially for disqus.
+
+highlighter: rouge
+markdown: kramdown
+##kramdown:
+  ##extensions: ["tables"]
+
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+
+
+plugins:
+  - jekyll-sitemap
+
+
+# Exclusion list from the generated _site
+
+exclude: ["LICENSE", "README.md", "CONTRIBUTING", "CONTRIBUTORS", "scripts"]
+
+
+## if you are on windows
+
+## to Serve the site open git bash or cmd or any other terminal  and type
+
+## jekyll serve --watch --baseurl "" --incremental
+
+# or ./scripts/serve-production on production mode
+
+# or ./scripts/serve
+
+# to add new post
+
+# type ./scripts/newpost postname
+
+## if you are on linux
+
+##  you must first grant permissions to both above files
+
+## like so; right  click on each file and then on permissions grand all read and right on  all fields
+
+# or cd your path on terminal and then chmod +x filename
+
+# when done just follow the instructions above
+# note, that you  might need to be root for ex:
+## sudo jekyll serve --watch --baseurl ""
