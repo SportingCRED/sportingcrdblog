@@ -1,0 +1,209 @@
+I"� <h2 id="bem-vindo-ao-nosso-blog">Bem vindo ao nosso blog!</h2>
+
+<figure>
+	<img src="/images/scrd.png" alt="scrd" width="200px" height="200px" />
+
+</figure>
+
+<hr />
+
+<h5 id="venha-conhecer-as-páginas-web-do-sporting-clube-da-reboleira-e-damaia">Venha conhecer as páginas web do Sporting Clube da Reboleira e Damaia:</h5>
+
+<ol>
+  <li><a href="https://www.youtube.com/channel/UCtQQHhFjdPeA0DDobSeydWg" target="_blank"> <strong>YouTube</strong></a></li>
+  <li><a href="https://disqus.com/home/forum/sportingcred/" target="_blank"> <strong>Disqus:</strong></a></li>
+  <li><a href="https://screboleiradamaia.wixsite.com/sportingcrd/academia" target="_blank"> <strong>Academia de Atletismo das Águas-Livres</strong></a></li>
+  <li><a href="https://twitter.com/sporting_crd" target="_blank"> <strong>Twiter</strong></a></li>
+  <li><a href="https://www.linkedin.com/in/jos%C3%A9-marques-331993138/" target="_blank"> <strong>Linkedin</strong></a></li>
+  <li><a href="https://plus.google.com/u/0/113308389834614028018" target="_blank"> <strong>Google+</strong></a></li>
+  <li><a href="http://bambuser.com/channel/SportingCRD" target="_blank"> <strong>Bambuser</strong></a></li>
+  <li><a href="https://www.instagram.com/scrddevsport/" target="_blank"> <strong>Instagram</strong></a></li>
+  <li><a href="https://myspace.com/sportingcrd" target="_blank"> <strong>MySpace</strong></a></li>
+  <li><a href="https://www.pinterest.pt/scrddesporto/" target="_blank"> <strong>Pinterest</strong></a></li>
+</ol>
+
+<hr />
+
+<h1 id="conheça-a-equipa-de-futebol-para-a-corrente-época">Conheça a equipa de futebol para a corrente época!!!</h1>
+
+<div class="container">
+<h1>Equipa de Futebol 11 2017/2018</h1>
+
+
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+    <li data-target="#myCarousel" data-slide-to="3"></li>
+    <li data-target="#myCarousel" data-slide-to="4"></li>
+    <li data-target="#myCarousel" data-slide-to="5"></li>
+    <li data-target="#myCarousel" data-slide-to="6"></li>
+    <li data-target="#myCarousel" data-slide-to="7"></li>
+    <li data-target="#myCarousel" data-slide-to="8"></li>
+    <li data-target="#myCarousel" data-slide-to="9"></li>
+    <li data-target="#myCarousel" data-slide-to="10"></li>
+    <li data-target="#myCarousel" data-slide-to="11"></li>
+    <li data-target="#myCarousel" data-slide-to="12"></li>
+    <li data-target="#myCarousel" data-slide-to="13"></li>
+    <li data-target="#myCarousel" data-slide-to="14"></li>
+    <li data-target="#myCarousel" data-slide-to="15"></li>
+    <li data-target="#myCarousel" data-slide-to="16"></li>
+    <li data-target="#myCarousel" data-slide-to="17"></li>
+    <li data-target="#myCarousel" data-slide-to="18"></li>
+    <li data-target="#myCarousel" data-slide-to="19"></li>
+    <li data-target="#myCarousel" data-slide-to="20"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+      <div class="item">
+        <figure>
+          <img src="/images/inatel/equipa.png" alt="Fig.- Equipa Futebol 2017/2018" width="1280px" height="450px" />
+          <figcaption>Fig.- Equipa Futebol 2017/2018 </figcaption>
+        </figure>
+      </div>
+    </div>
+    <div class="item">
+      <figure>
+        <img src="/images/inatel/agp.png" alt="Ricardo Martins" width="1280px" height="450px" />
+        <figcaption>Fig.- Augusto Pereira </figcaption>
+      </figure>
+    </div>
+    <div class="item">
+      <figure>
+        <img src="/images/inatel/bruno_cunha.png" alt="Bruno Cunha" width="1280px" height="450px" />
+        <figcaption>Fig.- Bruno Cunha </figcaption>
+      </figure>
+    </div>
+    <div class="item">
+      <figure>
+        <img src="/images/inatel/joaquim_barata.png" alt="Joaquim Barata" width="1280px" height="450px" />
+        <figcaption>Fig.- Joaquim Barata </figcaption>
+      </figure>
+    </div>
+    <div class="item">
+      <figure>
+        <img src="/images/inatel/david_cavaleiro.png" alt="David Cavaleiro" width="1280px" height="450px" />
+        <figcaption>Fig.- David Cavaleiro </figcaption>
+      </figure>
+    </div>
+    <div class="item">
+      <figure>
+        <img src="/images/inatel/cesar_ramalho.png" alt="Cesar Ramalho" width="1280px" height="450px" />
+        <figcaption>Fig.- Cesar Ramalho </figcaption>
+      </figure>
+    </div>
+    <div class="item">
+      <figure>
+        <img src="/images/inatel/felipe_simao.png" alt="Felipe Simão" width="1280px" height="450px" />
+        <figcaption>Fig.- Felipe Simão </figcaption>
+      </figure>
+    </div>
+    <div class="item">
+      <figure>
+        <img src="/images/inatel/lino_santos.png" alt="Lino Santos" width="1280px" height="450px" />
+        <figcaption>Fig.- Lino Santos </figcaption>
+      </figure>
+    </div>
+    <div class="item">
+      <figure>
+        <img src="/images/inatel/felipe_toledo.png" alt="Felipe Toledo" width="1280px" height="450px" />
+        <figcaption>Fig.- Felipe Toledo </figcaption>
+      </figure>
+    </div>
+    <div class="item">
+      <figure>
+        <img src="/images/inatel/luis_cardoso.png" alt="Luis Cardoso " width="1280px" height="450px" />
+        <figcaption>Fig.- Luis Cardoso </figcaption>
+      </figure>
+    </div>
+    <div class="item">
+      <figure>
+        <img src="/images/inatel/luis_repolho.png" alt="Luis Repolho" width="1280px" height="450px" />
+        <figcaption>Fig.- Luis Repolho </figcaption>
+      </figure>
+    </div>
+    <div class="item">
+      <figure>
+        <img src="/images/inatel/mario_garcias.png" alt="Mario Garcias " width="1280px" height="450px" />
+        <figcaption>Fig.- Mario Garcias </figcaption>
+      </figure>
+    </div>
+    <div class="item">
+      <figure>
+        <img src="/images/inatel/paulo_carmo.png" alt="Paulo Carmo" width="1280px" height="450px" />
+        <figcaption>Fig.- Paulo Carmo </figcaption>
+      </figure>
+    </div>
+    <div class="item">
+      <figure>
+        <img src="/images/inatel/tiago_florentino.png" alt="Tiago Florentino " width="1280px" height="450px" />
+        <figcaption>Fig.- Tiago Florentino </figcaption>
+      </figure>
+    </div>
+    <div class="item">
+      <figure>
+        <img src="/images/inatel/tiago_pinto.png" alt="Tiago Pinto" width="1280px" height="450px" />
+        <figcaption>Fig.- Tiago Pinto </figcaption>
+      </figure>
+    </div>
+    <div class="item">
+      <figure>
+        <img src="/images/inatel/ricardo_martins.png" alt="Ricardo Martins" width="1280px" height="450px" />
+        <figcaption>Fig.- Ricardo Martins </figcaption>
+      </figure>
+    </div>
+    <div class="item">
+      <figure>
+        <img src="/images/inatel/joao_mendonca.png" alt="João Mendonça" width="1280px" height="450px" />
+        <figcaption>Fig.- João Mendonça </figcaption>
+      </figure>
+    </div>
+    <div class="item">
+      <figure>
+        <img src="/images/inatel/joaquim_viera.png" alt="Joaquim Vieira" width="1280px" height="450px" />
+        <figcaption>Fig.- Joaquim Vieira </figcaption>
+      </figure>
+    </div>
+    <div class="item">
+      <figure>
+        <img src="/images/inatel/duilio_figueiredo.png" alt="Duilio Figueiredo" width="1280px" height="450px" />
+        <figcaption>Fig.- Duilio Figueiredo </figcaption>
+      </figure>
+    </div>
+    <div class="item">
+      <figure>
+        <img src="/images/inatel/paulo_camara.png" alt="Paulo Camara" width="1280px" height="450px" />
+        <figcaption>Fig.- Paulo Camara </figcaption>
+      </figure>
+    </div> 
+    <div class="item">
+      <figure>
+        <img src="/images/inatel/reiny_santos.png" alt="Reiny Santos" width="1280px" height="450px" />
+        <figcaption>Fig.- Reiny Santos </figcaption>
+      </figure>
+    </div>
+
+  </div>
+
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+
+<hr />
+
+</div>
+:ET

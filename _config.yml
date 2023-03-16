@@ -57,7 +57,7 @@ plugins:
 
 # Exclusion list from the generated _site
 
-exclude: ["LICENSE", "README.md", "CONTRIBUTING", "CONTRIBUTORS", "scripts"]
+exclude: ["LICENSE", "CONTRIBUTING", "CONTRIBUTORS"]
 
 
 ## if you are on windows
